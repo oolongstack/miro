@@ -3,12 +3,12 @@ import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
-    <p>
+    <div>
       hello board
       <Button variant={"secondary"} size={"sm"}>
         你好
       </Button>
       <UserButton />
-    </p>
+    </div>
   );
 }
